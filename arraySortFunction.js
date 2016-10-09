@@ -6,3 +6,5 @@ myArray.sort(function(dog, cat) {
 
 
 console.log(myArray)
+
+
