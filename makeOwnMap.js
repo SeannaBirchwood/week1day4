@@ -3,7 +3,6 @@ var trees = [{logs: 5, type: 'hardwood', name:'elm'},
 							{logs: 3, type: 'hardwood', name:'maple'},
 							{logs: 8, type: 'softwood', name: 'pine'},
 							{logs: 2, type: 'softwood', name: 'spruce'}];
-console.log(trees)
 
 var invenTrees = trees.map(function(logging) {
 	var typeKey = logging['type']
